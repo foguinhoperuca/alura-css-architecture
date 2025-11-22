@@ -1,0 +1,12 @@
+/* of course, before start we will make it ugly!! */
+
+body {
+	background-color: #222222;
+}
+
+.emphasis-marquee {
+	font-weight: 1000;
+	background-color: black;
+	color: green;
+	font-size: 150px;
+}
