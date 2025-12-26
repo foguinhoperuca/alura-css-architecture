@@ -1,7 +1,22 @@
-/* of course, before start we will make it ugly!! */
+:root {
+	--background-color: #f9f9f9;
+	--title-font: "Pacifico", cursive;
+
+	/* FIXME from old project */
+	--primary-color: #000000;
+	--secondary-color: #F6F6F6;
+	--tertiary-color: #22D4FD;
+	--bg-hover-color: #272727;
+	--primary-font: "Krona One", sans-serif;
+	--secondary-font: "Montserrat", sans-serif;
+
+	--alternative-color: #F54927;
+	--other-color: #F5B027;
+}
 
 body {
-	background-color: #222222;
+	/* background-color: #222222; */
+	background-color: var(--background-color);
 }
 
 .emphasis-marquee {
