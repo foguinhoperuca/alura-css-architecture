@@ -1,13 +1,13 @@
 .recipe__button {
-	background: #8d0606;
+	background: var(--primary-color);
 	border: none;
 	border-radius: 5px;
-	color: #fdfdfd;
+	color: var(--main-color);
 	padding: 1rem;
 	transition: all .1s ease-in-out;
 }
 
 .recipe__button:hover {
-	background: #620404;
+	background: var(--primary-color-darker);
 	cursor: pointer;
 }

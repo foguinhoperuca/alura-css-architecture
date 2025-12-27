@@ -1,5 +1,5 @@
 .about__title {
-	color: #8d0606;
+	color: var(--primary-color);
 	font-family: var(--title-font);
 	font-size: 3.1875rem;
 }

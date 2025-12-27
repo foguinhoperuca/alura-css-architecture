@@ -1,14 +1,12 @@
 :root {
-	--background-color: #f9f9f9; /* was #222222 */
 	--title-font: "Pacifico", cursive;
-
-	/* FIXME from old project */
-	--primary-color: #000000;
-	--secondary-color: #F6F6F6;
-	--tertiary-color: #22D4FD;
-	--bg-hover-color: #272727;
-	--primary-font: "Krona One", sans-serif;
-	--secondary-font: "Montserrat", sans-serif;
+	--main-color: #fdfdfd; /* # banner, recipe */
+	--background-color: #f9f9f9; /* header, recipe */
+	--background-color-darker: #e5e5e5; /* # recipes */
+	--primary-color: #8d0606; /* # who_we_are, person, about, recipe */
+	--primary-color-darker: #620404; /* # recipe */
+	--secondary-color: #595959; /* alternative: #808080 was used on menu-link :: found on who_we_are, person, about, menu-link */
+	--menu-link-active: #333333; /* # menu-link */
 }
 
 body {

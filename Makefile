@@ -7,10 +7,11 @@ dev:
 	livereload&
 	python3 -m http.server
 
+SRCH ?= "<SEARCH_STRING>"
 search-code:
 	@clear
 	@date
-	@grep -rn "$(SRCH)" * --exclude-dir={tmp,venv,__pycache__,tests} --exclude=tags | awk '{print $1}'
+	@grep -rn "$(SRCH)" * --exclude-dir={tmp,venv,__pycache__,tests,upstream} --exclude=tags --exclude-dir=upstream --exclude-dir=img | awk '{print $1}'
 	@date
 
 build-ctags:
