@@ -17,3 +17,11 @@
 .menu__link:hover {
 	text-decoration: underline;
 }
+
+.menu__link__logo {
+	width: 1.5rem;
+	height: 1.5rem;
+	/* width: 20%; */
+	/* height: 20%; */
+	margin: 0px;
+}
